@@ -56,7 +56,7 @@ void loop()
             count = count*2;
             Faster = Faster / 2;
             delay(800);
-            Serial.println("I'm the flash X 2 (Current Speed : X" + String(count) + ")");
+            Serial.println("I'm the Flash X 2 (Current Speed : X" + String(count) + ")");
             tone(8,400,100);
             
         }
